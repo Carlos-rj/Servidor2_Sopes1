@@ -1,0 +1,42 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.Izq{
+  padding: 10px;
+  float: left;
+  width: 50%;
+  text-align: justify;
+  margin: 4px,4px;
+  height: 850px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.Der{
+  padding: 10px;
+  float: right;
+  width: 50%;
+  text-align: justify;
+  align-content: center;
+  height: 850px;
+}
+
+.Base{
+  padding: 25px;
+}
+
+.App-link {
+  color: #61dafb;
+}
